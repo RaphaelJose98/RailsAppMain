@@ -1,5 +1,4 @@
 class ApplicationController < ActionController::Base
-  def last
-    render html: "Last time"
-  end
+  protect_from_forgery with: :exception
+  include SessionsHelper
 end
