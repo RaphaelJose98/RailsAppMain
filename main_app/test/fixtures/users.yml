@@ -1,1 +1,4 @@
-# Zilch
+ash:
+  name: Ash Example
+  email: ash@example.com
+  password_digest: <%= User.digest('password') %>
