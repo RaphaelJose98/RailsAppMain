@@ -1,0 +1,15 @@
+one:
+  follower: ash
+  followed: lana
+
+two:
+  follower: ash
+  followed: malory
+
+three:
+  follower: lana
+  followed: ash
+
+four:
+  follower: raph
+  followed: ash
